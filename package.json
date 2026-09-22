@@ -1,0 +1,13 @@
+{
+  "name": "js-basics-starter",
+  "version": "1.0.0",
+  "description": "Шаблон навчального репозиторію з автотестами для курсу Frontend Learning Hub",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "vitest": "^1.6.0"
+  }
+}
