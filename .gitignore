@@ -1,7 +1,44 @@
+# Dependencies
 node_modules/
-.DS_Store
-*.log
+/.pnp
+.pnp.*
+.pnp.js
+
+# Build & testing output
 dist/
+build/
 coverage/
+.temp/
+*.lcov
+.nyc_output
+
+# Package manager logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables & secrets
 .env
 .env.local
+.env.*.local
+!.env.example
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Editors & IDE configs
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+*.swo
+*~
